@@ -1,0 +1,172 @@
+body{
+    background-color: azure;
+}
+
+.navBar{
+    background-color:blanchedalmond;
+    width: auto;
+    height: 50px;
+    display: block;
+
+}
+
+ul {
+    display: block;
+    color: blue;
+    padding-left: 10px;
+}
+ul li {
+    display: block;
+    list-style-type: none;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+    float: left;
+}
+li a:hover{
+    background-color:brown;
+}
+
+.dropdown{
+    float: right;
+    color: blue;
+}
+
+select{
+    margin-top: 8%;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-display: block;
+    color: blue;
+    border: none;
+    background-color: azure;
+}
+
+.bodySkills{
+    display: block;
+    height: 60px;
+    width: auto;
+}
+button{
+    display: block;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 220px;
+    height: 70px;
+    text-align: center;
+    font-size: 20px;
+    pointer-events: visible;
+    border-radius: 10cm;
+    border-color: aqua;
+    border: none;
+    color: brown;
+    background-color: mediumturquoise;
+}
+
+button:hover{
+    background-color: rgb(163, 111, 32);
+}
+
+h1{
+    text-align: center;
+    color: brown;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: brown;
+    border: 10cm;
+}
+
+.footer{
+    height: 502px;
+}
+
+table{
+    border-style: none;
+    background-color: azure;
+    width: 400px;
+    margin-left: 550px;
+    border-style: solid;
+    
+}
+
+tr th{
+    border: 2px solid rgb(96, 90, 56);
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(124, 116, 70);
+}
+
+tr td{
+    border: 2px solid rgb(124, 116, 70);
+    padding: 10px;
+    text-align: center;
+}
+
+.idSpace{
+    height: 50px;
+}
+
+.certTitle{
+   display: block;
+   margin-top: 0%;
+   padding-top: 5px;
+   padding-left: 750px;
+    background-color: rgb(233, 197, 208);
+    font-style: normal;
+    height: 50px;
+    font-size: 45px;
+    color: rgb(151, 122, 85);
+}
+
+.varLeft{
+    background-color: rgb(80, 85, 144);
+    width: 300px;
+    margin-top: 0px;
+    float: left;
+    height: 600px;
+}
+
+.varRight{
+    display: grid;
+    border: none;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(232, 222, 209);
+    margin-top: 0px;
+    margin-left: 300px;
+    width: auto;
+    height: 600px;
+}
+
+img{
+    display: block;
+    width: 350px;
+    height: 300px;
+    float: left;
+    padding: 15px;
+    cursor: zoom-in;
+}
+
+img:hover{
+    cursor: none;
+}
+ol{
+    display: block;
+    float: left;
+}
+
+ol li{
+    display: block;
+    list-style-type: none;
+    float: left;
+}

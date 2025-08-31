@@ -1,0 +1,112 @@
+body{
+    background-color: azure;
+}
+
+.navBar{
+    background-color:blanchedalmond;
+    width: auto;
+    height: 50px;
+    display: block;
+
+}
+
+ul {
+    display: block;
+    color: blue;
+    padding-left: 10px;
+}
+ul li {
+    display: block;
+    list-style-type: none;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+    float: left;
+}
+li a:hover{
+    background-color:brown;
+}
+
+.dropdown{
+    float: right;
+    color: blue;
+}
+
+select{
+    margin-top: 8%;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-display: block;
+    color: blue;
+    border: none;
+    background-color: azure;
+}
+
+.bodySkills{
+    display: block;
+    height: 60px;
+    width: auto;
+}
+
+button:hover{
+    background-color: rgb(163, 111, 32);
+}
+
+.softSkillTitle{
+   display: block;
+   margin-top: 0%;
+   padding-top: 5px;
+   padding-left: 650px;
+    background-color: rgb(233, 197, 208);
+    font-style: normal;
+    height: 50px;
+    font-size: 45px;
+    color:rgb(151, 122, 85);
+}
+
+ol{
+    margin-top: 60px;
+    list-style-type: none;
+}
+ol li{
+
+    display: inline-block;
+    margin-left: 150px;
+    padding-top: 50px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(154, 189, 73, 0.711);
+    border-radius: 10cm;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(87, 43, 51);
+    border-style: groove;
+}
+
+.bodyLeft{
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+button{
+
+    display: inline-block;
+    margin-left: 100px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(169, 147, 190);
+    border-radius: 10cm;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    border: none;
+}
+

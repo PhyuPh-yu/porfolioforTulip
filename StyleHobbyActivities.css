@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(237, 238, 165);
+}
+
+.navBar{
+    background-color:blanchedalmond;
+    width: auto;
+    height: 50px;
+    display: block;
+
+}
+
+ul {
+    display: block;
+    color: blue;
+    padding-left: 10px;
+}
+ul li {
+    display: block;
+    list-style-type: none;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+    float: left;
+}
+li a:hover{
+    background-color:brown;
+}
+
+.dropdown{
+    float: right;
+    color: blue;
+}
+
+select{
+    margin-top: 8%;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-display: block;
+    color: blue;
+    border: none;
+    background-color: azure;
+}
+
+.bodySkills{
+    display: block;
+    height: 60px;
+    width: auto;
+}
+
+.hobbyTitle{
+    display: block;
+   margin-top: 0px;
+   padding-top: 5px;
+    background-color: rgb(247, 199, 214);
+    font-style: normal;
+    width: auto;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    color:rgb(151, 122, 85);
+}
+.upperdiv{
+    display: block;
+    margin-top: 20px;
+    margin-left: 150px;
+    width: auto;
+    height: 250px;
+}
+
+.lowerdiv{
+    display: block;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: auto;
+    height: 250px;
+}
+
+img{
+    display: block;
+    padding-left: 150px;
+    width: 300px;
+    height: 220px;
+
+}
+
+ol li{
+    display: block;
+    float: left;
+}
+
+label{
+    display: block;
+    margin-left: 140px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(59, 59, 148);
+    font-style: italic;
+    font-weight: bold;
+}

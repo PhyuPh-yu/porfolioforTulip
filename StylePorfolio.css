@@ -1,0 +1,120 @@
+body {
+    
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+ul {
+    padding: 0%;
+    margin: auto;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+li a{
+    float: left;
+    padding: 16px 18px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: brown;
+}
+
+li a:active{
+    background-color:beige ;
+}
+
+.dropdown{
+    float: right;
+    color: blue;
+
+}
+.dropdown-content{
+    position: relative;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+    color: blue;
+    z-index: 1;
+    text-decoration: none;
+}
+
+li dl:hover{
+    background-color: brown;
+}
+
+select{
+    margin-top: 8%;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-display: block;
+    color: blue;
+    border: none;
+    background-color: azure;
+}
+
+.navBar{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    display:block;
+    padding: 10px;
+    width: 300px;
+    height: 360px;
+    margin-top: 1%;
+}
+
+.aboutMe{
+    background-color: rgb(135, 208, 201);;
+    height: 380px;
+    display: block;
+}
+
+table{
+    column-span: 3;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experiences{
+    background-color: azure;
+    height: 240px;
+}
+
+
+.btnLink{
+    display: block;
+    margin-top: 50px;
+    width: 250px;
+    height: 50px;
+    
+}
+
+.tblExperiences{
+    column-span: 5;
+}
+
+.footer{
+    background-color:rgb(135, 208, 201);
+    height: 32px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: brown;
+}
+
+p{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: brown;
+}
