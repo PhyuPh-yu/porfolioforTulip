@@ -1,5 +1,5 @@
 var program = "Hello,\nWorld!";
-var arrLanguage = ["Data Structure and Algorithm","HTML","CSS","JavaScript","C#","Java","PHP"];
+var arrLanguage = ["Data Structure and Algorithm","HTML","CSS","JavaScript","C#","Java","PHP","Cobol","Assembly"];
 var arrDatabase = ["MySQL","Oracle","MS SQL Server","MongoDB"];
 var arrManagement = ["Time Management","Conflict Resolution Skills","Coaching and Mentoring","Active Listening", "Flexibility", "Motivation", "Interpersonal Skills*", "Conceptual Skills*"];
 var arrMachineLearning = ["Python","Maths"];
